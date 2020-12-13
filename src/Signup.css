@@ -1,0 +1,34 @@
+.signup {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.signup__container {
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid red;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  color: slateblue;
+  border: none;
+  background-color: white;
+}
+.signup__legend {
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+}
+.center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.signup__login {
+  color: black;
+  flex-direction: row;
+}

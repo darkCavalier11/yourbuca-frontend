@@ -1,0 +1,64 @@
+body {
+  background-image: linear-gradient(120deg, slateblue, rgb(255, 0, 157));
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: slateblue;
+}
+.login__legend {
+  font-size: 24px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.login__container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  border-radius: 30px;
+}
+.login__button {
+  margin: auto;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+input {
+  font-size: 20px;
+  padding: 5px;
+  border: none;
+  font-family: "Poppins";
+  border-bottom: 1px solid lightgray;
+}
+input:focus {
+  border: none;
+  outline: none;
+}
+button {
+  color: white;
+  background-color: slateblue;
+}
+.login__signup {
+  display: flex;
+  flex-direction: row;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: slateblue;
+}
+.login__email,
+.login__password {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  color: slateblue;
+}
