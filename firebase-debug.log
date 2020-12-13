@@ -1,0 +1,13 @@
+[debug] [2020-12-13T16:15:55.720Z] ----------------------------------------------------------------------
+[debug] [2020-12-13T16:15:55.722Z] Command:       /usr/bin/node /usr/bin/firebase deploy
+[debug] [2020-12-13T16:15:55.722Z] CLI Version:   8.19.0
+[debug] [2020-12-13T16:15:55.722Z] Platform:      linux
+[debug] [2020-12-13T16:15:55.722Z] Node Version:  v14.15.1
+[debug] [2020-12-13T16:15:55.723Z] Time:          Sun Dec 13 2020 21:45:55 GMT+0530 (India Standard Time)
+[debug] [2020-12-13T16:15:55.723Z] ----------------------------------------------------------------------
+[debug] [2020-12-13T16:15:55.723Z] 
+[debug] [2020-12-13T16:15:55.728Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-13T16:15:55.728Z] > authorizing via signed-in user
+[debug] [2020-12-13T16:15:55.728Z] [iam] checking project yourbuca-frontend for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-12-13T16:15:55.730Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/yourbuca-frontend:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
